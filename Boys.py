@@ -1,3 +1,4 @@
+#hello seb i made a change to the code 
 print ("HUNGER GAMES")
 a = str(input("You've been put with the forest behind you, weapons infront, a big guy to your right and a child to your left. Will you go forward, backwards, left or right?"))
 if a == "forward" or a == "Forward":
