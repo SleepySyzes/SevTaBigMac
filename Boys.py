@@ -9,7 +9,7 @@ if a == "forward" or a == "Forward":
         if c == "find wood" or c == "wood" or c == "Wood" or c == "Find Wood":
             d = str(input("You go out to search for wood. You've collected a big pile, but you see someone. They have a similar build to you and have a small pocket knife. Do you run with your wood, drop your wood and run or fight?"))
             if d == "fight" or d == "Fight":
-                #This whole section for the next 45 lines is the fight
+                #This whole section for the next 45 lines is the fight made by SEBASTIAN
                 import random
                 data = True
                 #health is the opponents health
