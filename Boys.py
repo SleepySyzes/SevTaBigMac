@@ -19,7 +19,6 @@ if a == "forward" or a == "Forward":
                 while data:
                     d = [ random.randint(1, 2) for _ in range(1) ]
                     a = str(input("Fight!    Punch:50 (50%)    Kick:75 (33%)"))
-                    print ("Opponents health:",health)
                     if health <= 0:
                         data = False
                         z = str(input("You run away with the loot you have gathered from the body."))
@@ -45,3 +44,4 @@ if a == "forward" or a == "Forward":
                         print("You were punched! Your health is now:",health2)
                     elif d == [2]:
                         health2 = health2
+                    print ("Opponents health:",health)
